@@ -2,14 +2,14 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <section className="flex w-full h-[752px] lg:h-[866px] items-end justify-center px-[15px] py-[58px] lg:px-[50px] xl:px-[240px] lg:py-[102px]">
+    <section className="flex w-full h-[752px] 2xl:h-[866px] items-end px-[15px] py-[58px] lg:px-[50px] lg:py-[102px] xl:px-[100px] 2xl:px-[240px] ">
       <div className="flex flex-col gap-[20px] lg:gap-[40px] z-0">
-        <h1 className="uppercase text-white text-[32px] lg:text-[68px] font-[400] leading-[110%] font-monument max-w-[1440px]">
+        <h1 className="uppercase text-white text-[32px] lg:text-[52px] xl:text-[62px] 2xl:text-[68px] font-[400] leading-[110%] font-monument max-w-[1440px]">
           The {`world's`} first platform for Tokenizing AI blockchain projects
         </h1>
         <div className="w-fit">
           <div className="h-[1px] bg-gradient-to-r from-[#3D8BFF] to-[#AB23FF] w-full" />
-          <p className="w-fit text-[18px] lg:text-[22px] font-[700] leading-[130%] pt-[7px] pb-[12px] bg-gradient-to-r from-[#3D8BFF] to-[#AB23FF] text-transparent bg-clip-text">
+          <p className="w-fit text-[18px] lg:text-[20px] 2xl:text-[22px] font-[700] leading-[130%] pt-[7px] pb-[12px] bg-gradient-to-r from-[#3D8BFF] to-[#AB23FF] text-transparent bg-clip-text">
             Hold the Creon Pass NFT and earn passive income from AI Tools
           </p>
           <div className="h-[1px] bg-gradient-to-r from-[#3D8BFF] to-[#AB23FF] w-full" />

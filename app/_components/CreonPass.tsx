@@ -3,7 +3,7 @@ import React from 'react'
 
 const CreonPass = () => {
   return (
-    <section className='w-full min-h-[970px] flex flex-col-reverse items-center text-center justify-center gap-[40px] px-[15px] lg:px[50px] xl:flex-row xl:pr-[132] xl:pl-[240px] py-[81px]'>
+    <section className='w-full min-h-[970px] flex flex-col-reverse items-center text-center justify-between gap-[40px] px-[15px] lg:px-[50px] xl:flex-row 2xl:pr-[132px] 2xl:pl-[240px] py-[81px]'>
         {/* Left Section */}
         <section className='w-full flex flex-col items-center xl:w-[700px] xl:items-start xl:text-start'>
             <h2 className='text-[68px] uppercase font-monument pb-[30px] border-b border-[#13171D]'>creon pass nft</h2>

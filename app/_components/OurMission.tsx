@@ -4,10 +4,10 @@ import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 
 const OurMission = () => {
   return (
-    <section className="w-full min-h-[970px] flex flex-col xl:flex-row gap-[40px] xl:gap[15px] items-center justify-between px-[15px] lg:px-[50px] xl:px-[240px]">
+    <section className="w-full min-h-[970px] flex flex-col 2xl:flex-row gap-[40px] 2xl:gap-[189px] justify-center pt-[115px] pb-[51px] px-[20px] lg:px-[50px] xl:px-[100px] 2xl:px-[240px]">
       {/* Left Section */}
-      <section className=" flex-1">
-        <p className="w-full xl:w-[699px] text-[30px] text-center xl:text-start xl:text-[38px] leading-[120%] uppercase font-[400] font-monument">
+      <section className="relative flex-1">
+        <p className="w-full 2xl:w-[699px] text-[28px] xl:text[32px] text-center xl:text-start 2xl:text-[38px] leading-[120%] uppercase font-[400] font-monument">
           Our vision is to support the innovation of AI blockchain projects{" "}
           <span className="bg-gradient-to-r from-[#3D8BFF] to-[#AB23FF] text-transparent bg-clip-text">
             while prioritizing communities and democratizing profits
@@ -16,11 +16,11 @@ const OurMission = () => {
         <img
           src={"./assets/images/creon_logo.png"}
           alt="Creon"
-          className="w-full xl:w-[836px] h-[502]"
+          className="w-full 2xl:w-[836px] h-[502] -z-10 2xl:absolute 2xl:right-[-189px] 2xl:bottom-0"
         />
       </section>
       {/* Right Section */}
-      <section className="w-full xl:w-[552px] flex flex-col gap-[30px]">
+      <section className="min-w-[552px] flex-1 flex flex-col gap-[30px]">
         {/* 1 */}
         <div className="w-full flex items-start gap-[28px] pb-[30px] border-b border-[#13171D]">
           <Image
@@ -29,8 +29,8 @@ const OurMission = () => {
             width={100}
             height={114}
           />
-          <div>
-            <h4 className="text-[22px] font-[700] leading-[130%] py-[28px] flex items-center justify-between">
+          <div className="w-full">
+            <h4 className="text-[22px] font-[700] leading-[130%] py-[28px] flex items-center justify-between flex-1">
               <span>Profitability and Growth</span>
               <IoIosArrowUp className="text-[16px]" />
             </h4>
@@ -52,8 +52,8 @@ const OurMission = () => {
             width={100}
             height={114}
           />
-          <div>
-            <h4 className="text-[22px] font-[700] leading-[130%] py-[28px] flex items-center justify-between">
+          <div className="w-full">
+            <h4 className="text-[22px] font-[700] leading-[130%] py-[28px] flex items-center justify-between flex-1">
               <span>Transparent & Fair Decentralized Earnings</span>
               <IoIosArrowDown className="text-[16px]" />
             </h4>
@@ -68,10 +68,9 @@ const OurMission = () => {
             width={100}
             height={114}
           />
-          <div>
-            <h4 className="text-[22px] font-[700] leading-[130%] py-[28px] flex items-center justify-between">
-              <span>Launching the
-future</span>
+          <div className="w-full">
+            <h4 className="text-[22px] font-[700] leading-[130%] py-[28px] flex items-center justify-between flex-1">
+              <span>Launching the future</span>
               <IoIosArrowDown className="text-[16px]" />
             </h4>
           </div>
@@ -85,10 +84,9 @@ future</span>
             width={100}
             height={114}
           />
-          <div>
-            <h4 className="text-[22px] font-[700] leading-[130%] py-[28px] flex items-center justify-between">
-              <span>Limitless Possibilities of AI
-& Crypto</span>
+          <div className="w-full">
+            <h4 className="text-[22px] font-[700] leading-[130%] py-[28px] flex items-center justify-between flex-1">
+              <span>Limitless Possibilities of AI & Crypto</span>
               <IoIosArrowDown className="text-[16px]" />
             </h4>
           </div>
