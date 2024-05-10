@@ -6,29 +6,18 @@ import React, { useState } from "react";
 import { FaDiscord, FaTelegramPlane, FaTwitter } from "react-icons/fa";
 import { FiMenu } from "react-icons/fi";
 import { MdOutlineClose } from "react-icons/md";
+import { NavLinks } from "@/constants";
 
-interface NavLink {
-  label: string;
-  link: string;
-  badge?: string;
-}
 
 const Navbar: React.FC = () => {
   const [sideMenuOpen, setSideMenuOpen] = useState(false);
-
-  const NavLinks: NavLink[] = [
-    { label: "Creon Pass", link: "#" },
-    { label: "Token", link: "#", badge: "SOON" },
-    { label: "AI Income", link: "#", badge: "SOON" },
-    { label: "AI Launchpad", link: "#", badge: "SOON" }
-  ];
 
   return (
     <nav className="w-full flex items-center justify-between px-[15px] py-[20px] lg:px-[50px] lg:py-[30px] z-0">
         {/* Logo*/}
         <Link href={"/"} className="relative z-50">
           <Image
-            src={"./assets/images/Logo.svg"}
+            src={"./images/Logo.svg"}
             width={120}
             height={33}
             alt="Creon"

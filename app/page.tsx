@@ -1,8 +1,8 @@
-import CreonPass from "./_components/CreonPass";
-import Hero from "./_components/Hero";
-import Navbar from "./_components/Navbar";
-import OurMission from "./_components/OurMission";
-import Profiting from "./_components/Profiting";
+import Navbar from "@/components/Navbar";
+import Hero from "@/components/Hero";
+import CreonPass from "@/components/CreonPass";
+import Profiting from "@/components/Profiting";
+import OurMission from "@/components/OurMission";
 
 export default function Home() {
   return (

@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import React from 'react'
 
 const CreonPass = () => {
@@ -32,7 +31,7 @@ const CreonPass = () => {
         />
         Your browser does not support the video tag.
       </video>
-      <img src={"./assets/images/Dark_shape.png"} alt='Shadow' className='absolute top-0 right-0 left-0 bottom-0 w-full h-full'/>
+      <img src={"./images/Dark_shape.png"} alt='Shadow' className='absolute top-0 right-0 left-0 bottom-0 w-full h-full'/>
         </section>
     </section>
   )
