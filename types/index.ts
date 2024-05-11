@@ -10,3 +10,10 @@ export interface AccordioTypes {
   arrow: string;
   content: string;
 }
+
+export interface ComingSoonTypes {
+  title: string;
+  subtitle: string;
+  image: string;
+  description: string;
+}
