@@ -17,3 +17,9 @@ export interface ComingSoonTypes {
   image: string;
   description: string;
 }
+
+export interface FutureItemTypes {
+  image: string;
+  title: string,
+  description: string;
+}

@@ -4,6 +4,8 @@ import CreonPass from "@/components/CreonPass";
 import Profiting from "@/components/Profiting";
 import OurMission from "@/components/OurMission";
 import ComingSoon from "@/components/ComingSoon";
+import Future from "@/components/Future";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -14,6 +16,8 @@ export default function Home() {
       <Profiting/>
       <OurMission/>
       <ComingSoon/>
+      <Future/>
+      <Footer/>
     </>
   );
 }
